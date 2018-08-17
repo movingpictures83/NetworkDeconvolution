@@ -1,0 +1,2 @@
+Prefix plugins/NetworkDeconvolution/example/
+Plugin NetworkDeconvolution inputfile corrP.never.csv outputfile corrP.never.NetworkDeconvolution.csv
