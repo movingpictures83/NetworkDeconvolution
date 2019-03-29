@@ -5,10 +5,10 @@ def ND(mat,beta=0.99,alpha=1,control=0):
     import numpy as np
 
     if beta>=1 or beta<=0:
-        print 'error: beta should be in (0,1)'
+        print('error: beta should be in (0,1)')
       
     if alpha>1 or alpha<=0:
-            print 'error: alpha should be in (0,1)';
+            print('error: alpha should be in (0,1)')
      
     
     '''
@@ -37,7 +37,7 @@ def ND(mat,beta=0.99,alpha=1,control=0):
     ***********************************
     eigen decomposition
     '''
-    print 'Decomposition and deconvolution...'
+    print('Decomposition and deconvolution...')
 
     Dv,U = LA.eigh(mat_th) 
     D = np.diag((Dv))
